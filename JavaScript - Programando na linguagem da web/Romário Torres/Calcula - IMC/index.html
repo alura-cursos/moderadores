@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Meus pacientes</title>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="alura.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1>Meus pacientes</h1>
+			</div>
+		</header>
+		<main class="container">
+			<section>
+				<h2>Meus pacientes</h2>
+				<table>
+					<tr>
+						<th>Nome</th>
+						<th>Peso(kg)</th>
+						<th>Altura(m)</th>
+						<th>IMC</th>
+					</tr>
+					<tr class="paciente">
+						<td class="info-nome">Leonardo</td>
+						<td class="info-peso">57</td>
+						<td class="info-altura">1.67</td>
+						<td class="info-imc"></td>
+					</tr>
+					<tr class="paciente">
+						<td class="info-nome">Paulo</td>
+						<td class="info-peso">100</td>
+						<td class="info-altura">2.00</td>
+						<td class="info-imc"></td>
+					</tr>
+				</table>
+				<button id="calcula-imcs" class="botao ">Calcular Imcs</button>
+			</section>
+			<section>
+				<h2>Adicionar novo paciente</h2>	
+				<form>
+					<fieldset>
+						<label for="nome">Nome:</label>
+						<input id="campo-nome" type="text" placeholder="digite o nome do seu paciente">
+					</fieldset>
+					<fieldset class="campo-medio">
+						<label for="peso">Peso:</label>
+						<input id="campo-peso" type="text" placeholder="digite o peso do seu paciente">
+					</fieldset>
+					<fieldset class="campo-medio">
+						<label for="altura">Altura:</label>
+						<input id="campo-altura" type="text" placeholder="digite a altura do seu paciente">
+					</fieldset>
+					<button id="adicionar-paciente" class="botao bto-principal">Adicionar</button>
+				</form>
+			</section>
+		</main>
+		<script src="percorreArray.js"></script>
+		<script src="montaPaciente.js"></script>
+		<script src="calcula-imc.js"></script>
+		<script src="adiciona.js"></script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
