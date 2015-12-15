@@ -1,0 +1,19 @@
+﻿<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome da Categoria</th>
+            <th>Descrição</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var categoria in ViewBag.Categorias) 
+        {
+            <tr>
+                <th>@categoria.Id</th>
+                <th>@categoria.Nome</th>
+                <th>@categoria.Descricao</th>
+            </tr>
+        }
+    </tbody>
+</table>
