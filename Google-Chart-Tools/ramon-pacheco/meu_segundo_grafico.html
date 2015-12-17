@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+			google.load('visualization', '1', {'packages':['corechart']});
+			google.setOnLoadCallback(desenhaGrafico);
+			
+			function desenhaGrafico(){
+				var dados = new google.visualization.DataTable();
+				
+				dados.addColumn('date', 'Dias');
+				dados.addRows(6);
+				
+				dados.addColumn('number', 'Conta Corrente');
+				dados.addColumn('number', 'Conta Investimento');
+				
+				/*         linha , coluna e valor         */
+				dados.setValue(0, 0, new Date(2015, 12, 11));
+				dados.setValue(0, 1, 1023.29);
+				dados.setValue(0, 2, 210,50);
+				
+				dados.setValue(1, 0, new Date(2015, 12, 12));
+				dados.setValue(1, 1, 908.42);
+				dados.setValue(1, 2, 490.82);
+
+				dados.setValue(2, 0, new Date(2015, 12, 13));
+				dados.setValue(2, 1, 852.97);
+				dados.setValue(2, 2, 450.17);
+
+				dados.setValue(3, 0, new Date(2015, 12, 14));
+				dados.setValue(3, 1, 1780.0);
+				dados.setValue(3, 2, 450.17);
+
+				dados.setValue(4, 0, new Date(2015, 12, 15));
+				dados.setValue(4, 1, 1621.69);
+				dados.setValue(4, 2, 720.81);
+
+				dados.setValue(5, 0, new Date(2015, 12, 16));
+				dados.setValue(5, 1, 1352.50);
+				dados.setValue(5, 2, 698.42);
+				
+				var formatter = new google.visualization.DateFormat({pattern: 'dd/MM/yyyy',});
+				formatter.format(dados, 0);
+				
+					
+				//var valorFormatter = new google.visualization.NumberFormat({ decimalSymbol:',', prefix:'R$ ' }); 
+				//valorFormatter.format(dados, 1); valorFormatter.format(dados, 2);
+				
+				var div = document.getElementById('chart_div');
+				var grafico = new google.visualization.LineChart(div);
+				grafico.draw(dados, {width:700, height:340, title:'Minhas finanças'});
+			}
+			
+		</script>
+	</head>
+	<body>
+		<h1>Saldo das Contas</h1>
+		<div id="chart_div"></div>
+	</body>
+</html>

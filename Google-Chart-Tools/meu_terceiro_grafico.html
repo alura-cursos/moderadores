@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+			google.load('visualization', '1', {'packages':['corechart']});
+			google.setOnLoadCallback(desenhaGrafico);
+			
+			function desenhaGrafico(){
+				var dados = new google.visualization.DataTable();
+				
+				dados.addColumn('string','Mês');
+				dados.addColumn('number', 'Gastos');
+				dados.addRows(12);
+				
+				dados.setValue(0, 0, 'Janeiro');
+				dados.setValue(0, 1, '14530');
+				
+				dados.setValue(1, 0, 'Fevereiro');
+				dados.setValue(1, 1, '12459');
+				
+				dados.setValue(2, 0, 'Março');
+				dados.setValue(2, 1, '15958');
+				
+				dados.setValue(3, 0, 'Abril');
+				dados.setValue(3, 1, '20349');
+				
+				dados.setValue(4, 0, 'Maio');
+				dados.setValue(4, 1, '23495');
+				
+				dados.setValue(5, 0, 'Junho');
+				dados.setValue(5, 1, '17331');
+				
+				dados.setValue(6, 0, 'Julho');
+				dados.setValue(6, 1, '12384');
+				
+				dados.setValue(7, 0, 'Agosto');
+				dados.setValue(7, 1, '13495');
+				
+				dados.setValue(8, 0, 'Setembro');
+				dados.setValue(8, 1, '13999');
+				
+				dados.setValue(9, 0, 'Outubro');
+				dados.setValue(9, 1, '20230');
+				
+				dados.setValue(10, 0, 'Novembro');
+				dados.setValue(10, 1, '22348');
+				
+				dados.setValue(11, 0, 'Dezembro');
+				dados.setValue(11, 1, '21230');
+				
+				var grafico = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+				grafico.draw(dados, {width: 600, height: 240, title: 'Gastos', vAxis: {title: 'Valor'}});
+				
+				
+			}
+			
+		</script>
+	</head>
+	<body>
+		<h1>Saldo das Contas</h1>
+		<div id="chart_div"></div>
+	</body>
+</html>

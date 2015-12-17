@@ -1,0 +1,39 @@
+<html>
+        <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+        <script type="text/javascript">
+
+              // carregando bibliotecas do google
+              google.load('visualization', '1', {'packages':['intensitymap']});
+              google.setOnLoadCallback(desenhaGrafico);
+
+             function desenhaGrafico() {
+               var dados = new google.visualization.DataTable();
+			   dados.addColumn('string', 'Pais');
+			   dados.addColumn('number', 'População');
+			   dados.addColumn('number', 'Área');
+			   
+			   dados.addRows(2);
+			   
+			   dados.setValue(0,0,'BR');
+			   dados.setValue(0,1,8514);
+			   dados.setValue(0,2,191480);
+			   
+			   dados.setValue(1,0,'CO');
+			   dados.setValue(1,1,1138);
+			   dados.setValue(1,2,45986);
+			   
+			   var div =  document.getElementById('chart_div');
+			   var chart = new google.visualization.IntensityMap(div);
+			   chart.draw(dados, {region : 'south_america'});
+             }
+            
+        </script>
+        </head>
+        <body>
+         <div id="chart_div"></div>
+           <div id="msg"></div>
+        </body>
+</html>

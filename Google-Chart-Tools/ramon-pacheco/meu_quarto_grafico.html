@@ -1,0 +1,43 @@
+<html>
+        <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+        <script type="text/javascript">
+
+              // carregando bibliotecas do google
+              google.load('visualization', '1', {'packages':['corechart']});
+              google.setOnLoadCallback(desenhaGrafico);
+
+             function desenhaGrafico() {
+               var dados = new google.visualization.DataTable();
+                dados.addColumn('string', 'Tipo de gastos');
+                 dados.addColumn('number', 'Valor gasto');
+                 
+                 dados.addRows(4);
+                 
+                 dados.setValue(0,0,'Alimentação');
+                 dados.setValue(0,1,450);
+                 dados.setValue(1, 0, 'Combustível');
+                 dados.setValue(1, 1, 300);
+                 dados.setValue(2, 0, 'Família');
+                 dados.setValue(2, 1, 600);
+                 dados.setValue(3, 0, 'Saúde');
+                 dados.setValue(3, 1, 350);
+                 
+                 var grafico = new google.visualization.PieChart(document.getElementById('chart_div'));
+                 grafico.draw(dados, {width:700, height:340, title:'Meus gastos'});
+                 google.visualization.events.addListener(grafico, 'select', avisaDoClique);
+                 
+				function avisaDoClique(event)  {
+                document.getElementById('msg').innerHTML += "Clique efetuado! <br/>";
+				}
+             }
+            
+        </script>
+        </head>
+        <body>
+         <div id="chart_div"></div>
+            <div id="msg"></div>
+        </body>
+</html>
