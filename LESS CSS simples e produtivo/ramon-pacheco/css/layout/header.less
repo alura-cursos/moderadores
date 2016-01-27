@@ -1,0 +1,52 @@
+/** Header **/
+header {
+  border-top: 5px solid @cor-padrao;
+  background: fade(@cor-auxiliar, 80);
+  height: 90px;
+  width: 100%;
+  position: absolute;
+    
+    @media @mobile{
+        height: auto;
+    }
+}
+
+header .container {
+  position: relative;
+    @media @mobile{
+        position: static;
+    }
+}
+
+.menu-principal {
+  position: absolute;
+  right: 0;
+  top: -.5em;
+  font-size: 1.2em;
+  font-weight: lighter;
+    
+    @media @mobile{
+        position: static;
+		display: block;
+		text-align: center;
+    }
+    
+    ul {
+        padding-left: 0;
+    }
+    li {
+        display: inline-block;
+        width: 5em;
+        
+        @media @mobile{
+            margin: .4em;
+        }
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
