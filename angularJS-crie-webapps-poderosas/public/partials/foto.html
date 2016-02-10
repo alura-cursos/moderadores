@@ -1,0 +1,54 @@
+<div class="page-header text-center">
+  <h1>{{foto.titulo}}</h1>
+</div>
+
+<p ng-show="mensagem.length" class="alert alert-info">{{mensagem}}</p>
+
+<form name="formulario" class="row" novalidate ng-submit="submeter()">
+  <div class="col-md-6">
+    <div class="form-group">
+      <label>Título</label>
+      <input name="titulo" class="form-control" ng-model="foto.titulo" ng-maxlength="20" required>
+      <span class="form-control alert-danger" ng-show="formulario.$submitted && formulario.titulo.$error.required">
+        Título obrigatório
+      </span>
+      <span class="form-control alert-danger" ng-show="formulario.$submitted && formulario.titulo.$error.maxlength">
+        Tamanho máximo de 20 caracteres
+      </span>
+    </div>
+    <div class="form-group">
+      <label>URL</label>
+      <input name="url" class="form-control" ng-model="foto.url" required>
+      <span ng-show="formulario.$submitted && formulario.url.$error.required" class="form-control alert-danger">
+        URL obrigatória
+      </span>
+    </div>
+    <div class="form-group">
+      <label>Descrição</label>
+      <textarea name="descricao" class="form-control" ng-model="foto.descricao">
+      </textarea>
+    </div>
+
+    <div class="form-group">
+      <label>Grupo</label>
+      <select name="grupo" class="form-control" required
+        ng-model="foto.grupo"
+        ng-controller="GruposController"
+        ng-options="grupo._id as (grupo.nome | uppercase) for grupo in grupos">
+        <option value="">Escolha um grupo</option>
+      </select>
+      <span ng-show="formulario.$submitted && formulario.grupo.$error.required" class="form-control alert-danger">
+        Grupo obrigatório
+      </span>
+    </div>
+
+    <button type="submit" class="btn btn-primary" ng-disabled="formulario.$invalid">
+      Salvar
+    </button>
+    <a href="/" meu-focus class="btn btn-primary">Voltar</a>
+    <hr>
+  </div>
+  <div class="col-md-6">
+    <minha-foto></minha-foto>
+  </div>
+</form>
