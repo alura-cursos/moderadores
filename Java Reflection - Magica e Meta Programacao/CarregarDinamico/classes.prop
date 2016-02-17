@@ -1,0 +1,3 @@
+java.util.List = java.util.ArrayList
+java.util.Map = java.util.HashMap
+InterfaceExemplo = ClasseExemplo
