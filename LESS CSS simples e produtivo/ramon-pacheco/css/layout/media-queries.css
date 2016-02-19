@@ -1,0 +1,39 @@
+@media (max-width: 980px) {
+  .container {
+    width: 90%;
+  }
+  header {
+    height: auto;
+  }
+  header .container {
+    position: static;
+  }
+  header h1 {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  header h1 img {
+    max-width: 100%;
+    margin: .5em auto;
+    display: block;
+  }
+  .menu-principal {
+    position: static;
+    display: block;
+    text-align: center;
+  }
+  .menu-principal li {
+    margin: .4em;
+  }
+  .destaque {
+    font-size: 14px;
+    height: 250px;
+  }
+  .menu-principal,
+  .menu-principal li,
+  .post-destaque,
+  .posts-antigos,
+  form {
+    width: auto;
+  }
+}

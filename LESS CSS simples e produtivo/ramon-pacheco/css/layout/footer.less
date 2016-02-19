@@ -1,0 +1,97 @@
+/** Footer **/
+footer {
+  display: block;
+  position: relative;
+}
+
+footer::after {
+  content: "";
+  background: url(../imagens/fundo-rodape.png);
+  opacity: .02;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+footer::before {
+  content: "";
+  background: @cor-auxiliar;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+footer .container {
+  padding-top: @tamanho-da-fonte-do-html * 3px;
+  height: @tamanho-da-fonte-do-html * 6.5px;
+  position: relative;
+}
+
+footer .container img {
+  width: 250px;
+}
+
+.menu-rodape,
+.social {
+  position: absolute;
+}
+
+.menu-rodape ul li {
+  display: inline-block;
+  margin-left: 2em;
+}
+
+.menu-rodape {
+  top: 1em;
+  right: 0;
+}
+
+.social {
+  bottom: 0;
+  right: 0;
+}
+
+.menu-rodape li,
+.social li {
+  display: inline;
+}
+
+footer a {
+  color: @cor-branca;
+  text-decoration: none;
+}
+
+.social li {
+  float: left;
+}
+
+.social li a {
+  display: block;
+  width: 55px;
+  height: 55px;
+  .image-replacement;
+  margin-left: 1em;
+}
+
+.social a {
+  background-position: top;
+  background-size: 50px 50px;
+}
+
+.social a[href*="facebook"] {
+  background-image: url(../imagens/facebook.png);
+}
+
+.social a[href*="twitter"] {
+  background-image: url(../imagens/twitter.png);
+}
+
+.social a[href*="instagram"] {
+  background-image: url(../imagens/instagram.png);
+}
