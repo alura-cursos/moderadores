@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Ceep</title>
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href="css/base.css" rel="stylesheet" type="text/css">
+	<link href="css/header.css" rel="stylesheet" type="text/css">
+	<link href="css/card.css" rel="stylesheet" type="text/css">
+	<link href="css/newCard.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header class="header container">
+		<h1 class="header-title">Ceep</h1>
+		<nav class="header-menu">
+			<ul>
+				<li class="header-button"><a>Linhas</a></li>
+				<li class="header-button"><a>?</a></li>
+			</ul>
+		</nav>
+	</header>
+	<form action="" class="newCard">
+    	<textarea class="newCard-content" cols="30" placeholder="Digite aqui o conteúdo do seu cartão" rows="10"></textarea>
+    	<input class="newCard-action" type="submit" value="Salvar">
+  	</form>
+	<section class="container">
+  		<ol class="wrap-card">
+    		<li class="card" data-color="first">
+    			<nav class="wrap-card-options">
+					<ul>
+						<li class="card-options card_delete">
+						  <a href="">Excluir</a>
+						</li>
+						<li class="card-options card_edit">
+						  <a href="">Editar</a>
+						</li>
+					    <li class="card-options isActive" data-color="first">
+					      <a href="">Azul</a>
+					    </li>
+					    <li class="card-options" data-color="second">
+					      <a href="">Vermelho</a>
+					    </li>
+					    <li class="card-options" data-color="third">
+					      <a href="">Verde</a>
+					    </li>
+					    <li class="card-options" data-color="fourth">
+					      <a href="">Amarelo</a>
+					    </li>
+				  	</ul>
+				</nav>
+    			<p class="card-content" contenteditable="false">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit provident quibusdam reprehenderit delectus excepturi eligendi iure ipsa vitae, praesentium officia magni aspernatur tempora, quidem possimus quas earum rerum vero id dolores beatae. Nihil quia, et magnam? A optio, reiciendis eligendi.</p>
+    		</li><!--
+    		--><li class="card" data-color="second">
+    			<nav class="wrap-card-options">
+					<ul>
+						<li class="card-options card_delete">
+						  <a href="">Excluir</a>
+						</li>
+						<li class="card-options card_edit">
+						  <a href="">Editar</a>
+						</li>
+					    <li class="card-options" data-color="first">
+					      <a href="">Azul</a>
+					    </li>
+					    <li class="card-options isActive" data-color="second">
+					      <a href="">Vermelho</a>
+					    </li>
+					    <li class="card-options" data-color="third">
+					      <a href="">Verde</a>
+					    </li>
+					    <li class="card-options" data-color="fourth">
+					      <a href="">Amarelo</a>
+					    </li>
+				  	</ul>
+				</nav>
+    			<p class="card-content" contenteditable="false">Voluptatum, aut quasi laboriosam maiores in, veritatis consequuntur eveniet, ipsa, sequi nobis quae reiciendis repellat saepe commodi consectetur vitae magni neque voluptas? Maxime eaque sit odit error neque, dolore inventore doloribus. Corporis commodi iure voluptatibus libero ea rerum dolorem. Voluptatum.</p>
+    		</li><!--
+    		--><li class="card" data-color="third">
+    			<nav class="wrap-card-options">
+					<ul>	
+						<li class="card-options card_delete">
+						  <a href="">Excluir</a>
+						</li>
+						<li class="card-options card_edit">
+						  <a href="">Editar</a>
+						</li>
+					    <li class="card-options" data-color="first">
+					      <a href="">Azul</a>
+					    </li>
+					    <li class="card-options" data-color="second">
+					      <a href="">Vermelho</a>
+					    </li>
+					    <li class="card-options isActive" data-color="third">
+					      <a href="">Verde</a>
+					    </li>
+					    <li class="card-options" data-color="fourth">
+					      <a href="">Amarelo</a>
+					    </li>
+				  	</ul>
+				</nav>
+    			<p class="card-content" contenteditable="false">Quae laborum quis perspiciatis quam, nisi fugit molestias quibusdam tenetur deserunt cum a optio, impedit consequatur ullam deleniti voluptates? Dolorem quis architecto labore doloremque velit reiciendis ducimus hic repellendus quas eos facilis inventore iusto ipsa laborum veritatis, nemo, a provident.</p>
+    		</li><!--
+    		--><li class="card" data-color="fourth">
+    			<nav class="wrap-card-options">
+					<ul>
+						<li class="card-options card_delete">
+						  <a href="">Excluir</a>
+						</li>
+						<li class="card-options card_edit">
+						  <a href="">Editar</a>
+						</li>
+					    <li class="card-options" data-color="first">
+					      <a href="">Azul</a>
+					    </li>
+					    <li class="card-options" data-color="second">
+					      <a href="">Vermelho</a>
+					    </li>
+					    <li class="card-options" data-color="third">
+					      <a href="">Verde</a>
+					    </li>
+					    <li class="card-options isActive" data-color="fourth">
+					      <a href="">Amarelo</a>
+					    </li>
+				  	</ul>
+				</nav>
+    			<p class="card-content" contenteditable="false">Esse error, quos aspernatur ad eaque voluptatum hic, quas nesciunt modi! Nobis iure numquam cupiditate! Eum, quos sequi natus aut harum sed culpa maxime cumque, sapiente necessitatibus perferendis iste. Nostrum, deleniti, veniam. Qui, illum, consectetur. Saepe autem, alias maiores molestiae.</p>
+    		</li>
+  		</ol>
+	</section>
+	<script src="js/card.js" type="text/javascript"></script>
+	<script src="js/newCard.js" type="text/javascript"></script>
+</body>
+</html>
