@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Carrinho</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.css">
+	<style>
+		body {
+			padding-top:70px;
+		}
+		footer {
+			background-color:#333;
+			color:#aaa;
+			padding:20px 0;
+			text-align: center;
+			margin-top:20px;
+		}
+		.navbar {
+			color:#fff;
+		}
+		dl {
+			margin:15px 0;
+		}
+
+	</style>
+</head>
+<body>
+<header>
+		<nav class="navbar navbar-fixed-top navbar-inverse">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#home">Kunstee</a>
+				<button class="navbar-toggle" type="button"
+					data-target=".navbar-collapse" data-toggle="collapse">
+					Menu
+				</button>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav ">
+					<li><a href="index.html#novidades">Novidades</a></li>
+					<li><a href="index.html#maisVendidos">Mais Vendidos</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Camisetas <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Masculinas</a></li>
+							<li><a href="#">Feminina</a></li>
+							<li><a href="#">Infantil</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form class="navbar-form navbar-right">
+			        <div class="form-group">
+			          <input type="text" class="form-control" placeholder="Pesquisar">
+			        </div>
+			        <button type="submit" class="btn btn-default">Buscar</button>
+		      	</form>
+			</div>
+			
+	</nav>
+</header>
+<main>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h2 class="panel-title">Sua compra</h2>
+					</div><!-- fim .panel-heading -->
+					<div class="panel-body">
+						<figure>
+								<img src="img/produto.png" alt="Fuzzy Cardigan" 
+							 class="img-thumbnail img-responsive">
+					 	</figure>
+						<dl>
+							<dt>Produto</dt>
+							<dd>Camiseta feminina azul</dd>
+
+							<dt>Cor</dt>
+							<dd>Azul</dd>
+
+							<dt>Tamanho</dt>
+							<dd>40</dd>
+
+							<dt>Preço</dt>
+							<dd>R$ 129,00</dd>
+						</dl>
+					</div><!-- fim .panel-body -->
+				</div><!-- fim .panel -->
+			</div><!-- fim col-sm-4 -->
+			<form class="col-sm-8" action="enviado.html">
+			<fieldset>
+				<legend>Dados pessoais</legend>
+
+				<div class="form-group">
+					<label for="nome">Nome completo</label>
+					<input type="text" class="form-control" id="nome" name="nome">
+				</div>
+
+				<div class="form-group">
+					<label for="email">Email</label>
+					<div class="input-group">
+							<span class="input-group-addon">@</span>
+							<input type="text" class="form-control"
+							       id="email" name="email">
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label for="cpf">CPF</label>
+					<input type="text" class="form-control" id="cpf" name="cpf" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}">
+				</div>
+				<div class="form-group">
+					<label for="telefone">Telefone</label>
+					<input type="text" class="form-control" id="telefone" name="telefone">
+				</div>
+
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" value="sim" name="spam" checked>
+						Quero receber novidades da Kunstee
+					</label>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Informações de entrega</legend>
+				<div class="form-group">
+					<label for="CEP">CEP</label>
+					<input type="text" class="form-control" id="cep" name="cep" pattern="\d{5}-?\d{3}">
+				</div>
+				<div class="form-group">
+					<label for="endereco">Endereço</label>
+					<textarea type="text" class="form-control" id="endereco" name="endereco"></textarea>
+				</div>
+				<div class="form-group">
+					<label for="complemento">Complemento</label>
+					<input type="text" class="form-control" id="complemento" name="complemento" placeholder="apto, bloco">
+				</div>
+				<div class="form-group">
+					<label for="data-entrega">Tipo</label>
+					<select class="form-control" id="data-entrega" name="data-entrega">
+						<option value="03/08/2015">Entrega expressa</option>
+						<option value="07/12/2015">Entrega comum</option>
+						<option value="21/10/2017">Entrega econômica</option>
+					</select>
+					<p class="help-block" id="data-formatada">Entrega prevista para 3 de agosto de 2015.</p>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Doação</legend>
+				<div class="form-group">
+					<label for="causa-doacao">Causa</label>
+					<select class="form-control" id="causa-doacao" name="causa-doacao">
+						<option value="criancas">Crianças</option>
+						<option value="natureza">Natureza</option>
+						<option value="animais">Animais</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="valor-doacao">Valor</label>
+					<div class="input-group">
+						<span class="input-group-addon">R$</span>
+						<input type="number" step="0.01" class="form-control" id="valor-doacao" name="valor-doacao" value="0.00">
+					</div>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Cartão de crédito</legend>
+
+				<div class="form-group">
+					<label for="bandeira-cartao">Bandeira</label>
+					<select name="bandeira-cartao" id="bandeira-cartao"
+							class="form-control">
+						<option value="master">MasterCard</option>
+						<option value="visa">VISA</option>
+						<option value="amex">American Express</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label for="numero-cartao">Número</label>
+					<input type="text" class="form-control" 
+					       id="numero-cartao" name="numero-cartao">
+				</div>
+
+				<div class="form-group">
+					<label for="validade-cartao">Validade</label>
+					<input type="text" class="form-control" 
+					       id="validade-cartao" name="validade-cartao">
+				</div>
+
+				<div class="form-group">
+					<label for="cvv-cartao">CVV</label>
+					<input type="text" maxlength="3" class="form-control" 
+					       id="cvv-cartao" name="cvv-cartao">
+				</div>
+			</fieldset>
+			<button type="submit" class="btn btn-primary">
+				<span class="glyphicon glyphicon-thumbs-up"></span>
+				Confirmar Pedido
+			</button>
+		</form>		
+		</div><!-- fim row -->
+	</div><!-- container -->
+</main>
+<footer>
+	<p>Todos os direitos reservados</p>
+	<p>Avenida Paulista, 1. São Paulo - SP</p>
+</footer>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/validacao.js"></script>
+</body>
+</html>
