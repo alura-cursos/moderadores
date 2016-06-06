@@ -1,0 +1,3 @@
+<?php
+#$conexao = mysqli_connect("localhost", "root", "", "loja");
+$conexao = mysqli_connect("mysql.hostinger.com.br", "u417238345_loja", "Df8PSIvF", "u417238345_loja");
