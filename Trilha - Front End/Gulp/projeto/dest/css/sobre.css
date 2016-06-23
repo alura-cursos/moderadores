@@ -1,0 +1,88 @@
+body {
+  color: #333333;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-serif;
+}
+h1 {
+  background-image: url(../img/sobre-background.jpg);
+}
+figure {
+  background: #F2EDED;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+figcaption {
+  font-style: italic;
+}
+h2 {
+  border-bottom: 2px solid #333333;
+}
+h3 {
+  background: #dcdcf5;
+  font-size: 48px;
+  text-align: center;
+}
+/* exercicio 2: margens, padding e width */
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 940px;
+}
+h1 {
+  padding: 10px;
+}
+h2 {
+  margin-top: 2em;
+}
+h3 {
+  background: #dcdcf5;
+  font-size: 48px;
+  text-align: center;
+  padding: 20px;
+  margin: 40px 0;
+}
+p {
+  padding: 0 3em;
+  text-indent: 1em;
+}
+figure {
+  padding: 1em;
+  margin: 2em;
+}
+figcaption {
+  margin-top: 0.5em;
+}
+/* exercicio 3: ID e seletor de filho */
+h3 a {
+  color: #337;
+  text-decoration: none;
+}
+#centro-distribuicao {
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+}
+#rodape {
+  color: #777;
+  margin: 2em 0;
+  padding: 2em 0;
+}
+#rodape img {
+  margin-right: 2em;
+  vertical-align: middle;
+  width: 10%;
+}
+/* exercicio 4: float */
+#familia-pelho {
+  float: right;
+  margin: 0 0 1em 2em;
+}
+/* exercicio seletores avancados */
+p:first-letter {
+  font-weight: bold;
+}
+h1 + p {
+  text-indent: 0;
+}
+:not(p) + p:first-line {
+  font-variant: small-caps;
+}

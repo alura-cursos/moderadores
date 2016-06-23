@@ -1,0 +1,239 @@
+@media (min--moz-device-pixel-ratio: 0) {
+	fieldset {
+		display: table-column;
+	}
+}
+
+.cores label:after {
+	content: '';  
+	display: block;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+
+label[for=verde]:after {
+	background-color: #33CC66;
+}
+label[for=rosa]:after {
+	background-color: #FF6666;
+}
+label[for=azul]:after {
+	background-color: #6666FF;
+}
+
+.cores input:checked + label:after {
+	border: 6px solid rgba(0,0,0,0.3);
+}
+
+.cores label:after {
+	-moz-box-sizing: border-box;
+	     box-sizing: border-box;
+}
+
+.cores input[type=radio] {
+	display: none;
+}
+
+.cores input:not(:checked) + label img {
+	display: none;
+}
+
+.cores {
+	position: relative;
+	padding-top: 90px;
+}
+
+.cores legend {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.cores label:after {
+	position: absolute;
+	top: 30px;
+}
+
+label[for=verde]:after {
+	left: 0;
+}
+label[for=rosa]:after {
+	left: 60px;
+}
+label[for=azul]:after {
+	left: 120px;
+}
+
+.cores label img {
+	display: block;
+	max-width: 100%;
+}
+
+.cores label:after {
+	cursor: pointer;
+}
+
+.cores label:after {
+	border: 6px solid rgba(0,0,0,0);
+	transition: 1s;
+}
+
+.cores label:hover:after {
+	border: 6px solid rgba(0,0,0,0.1);
+}
+
+.produto legend {
+	display: block;
+	font: bold 0.9em/2.5 Arial;
+	text-transform: uppercase;
+}
+
+.produto {
+	color: #333;
+	line-height: 1.3;
+	margin-top: 2em;
+}
+.produto h1 {
+	font-size: 1.8em;
+	font-weight: bold;
+}
+.produto h2 {
+	font-size: 1.2em;
+	font-style: italic;
+	margin-bottom: 1em;
+}
+
+.comprar {
+	background: #91bd3c;
+	border: none;
+	color: #333;
+
+	font-size: 1.4em;
+	text-transform: uppercase;
+
+	box-shadow: 0 1px 3px #777;
+	
+	display: block;
+	padding: 0.5em 1em;
+	margin: 1em 0;
+
+	-webkit-appearance: none;
+}
+
+@media (min-width: 630px) {
+	
+	.produto {
+		position: relative;
+		padding-left: 40%;
+	}
+
+	.cores {
+		padding: 0;
+		position: static;
+	}
+
+	.cores legend {
+		position: static;
+	}
+
+	.cores label img {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.cores label:after {
+		position: static;
+		float: left;
+	}
+
+	.produto {
+		min-height: 380px;
+		font-size: 1.2em;
+	}
+
+	.cores label img {
+		max-width: 35%;
+		max-height: 100%;
+	}
+
+	.cores label:after {
+		margin-right: 10px;
+	}
+
+	fieldset {
+		display: inline-block;
+		vertical-align: top;
+		
+		margin: 1em 0;
+		min-width: 250px;
+		width: 45%;
+	}
+}
+
+
+.tamanhos output {
+	display: inline-block;
+	height: 44px;
+	width: 44px;
+
+	line-height: 44px;
+	text-align: center;
+
+	border: 3px solid #666;
+	border-radius: 50%;
+	color: #555;
+}
+
+.detalhes {
+	margin: 2em 0;
+}
+.detalhes h2 {
+	font-size: 1.5em;
+	line-height: 2;
+}
+.detalhes p {
+	margin: 1em 0;
+	font-size: 1em;
+	line-height: 1.5;
+	max-width: 36em;
+}
+
+@media (min-width: 500px) {
+	.detalhes {
+		font-size: 1.2em;
+	}
+}
+
+.produto-back {
+	background: #F2F2F2;
+	margin-top: 1em;
+	border-top: 2px solid #ccc;
+}
+.cores label img {
+	border: 2px solid #ccc;
+}
+
+table {
+	border-spacing: 0.2em;
+	border-collapse: separate;
+}
+thead {
+	background: #999;
+}
+thead th {
+	font-weight: bold;
+	padding: 0.3em 1em;
+	text-align: center;
+}
+td {
+	padding: 0.3em;
+}
+tr:nth-child(2n) {
+	background: #ccc;
+}
+td:first-child {
+	font-style: italic;
+}
+
