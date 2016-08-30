@@ -1,0 +1,35 @@
+﻿@model IList<CaelumEstoque.Models.Produto>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Decrementar</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var produto in Model)
+        {
+            <tr>
+                <td>@produto.Id</td>
+                <td>@Html.RouteLink(produto.Nome, "VisualizaProduto", new { id = produto.Id })</td>
+                <td id="quantidade@(produto.Id)">@produto.Quantidade</td>
+                <td><a href="#" onclick="decrementa(@produto.Id)">Decrementar</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script>
+    function decrementa(produtoId) {
+        var url = "@Url.Action("DecrementaQtd", "Produto")";
+
+        $.post(url, { id : produtoId }, atualiza);
+    }
+
+    function atualiza(resposta) {
+        $("#quantidade" + resposta.Id).html(resposta.Quantidade);
+    }
+</script>

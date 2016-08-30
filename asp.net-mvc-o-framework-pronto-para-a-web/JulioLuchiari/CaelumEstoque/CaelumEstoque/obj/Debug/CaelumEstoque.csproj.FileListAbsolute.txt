@@ -1,0 +1,112 @@
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\bin\CaelumEstoque.dll.config
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\bin\CaelumEstoque.dll
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\bin\CaelumEstoque.pdb
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\bin\EntityFramework.dll
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\bin\EntityFramework.SqlServer.dll
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\bin\System.Web.Helpers.dll
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\bin\System.Web.Mvc.dll
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\bin\System.Web.Razor.dll
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.Deployment.dll
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.dll
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.Razor.dll
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\bin\EntityFramework.xml
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\bin\EntityFramework.SqlServer.xml
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\bin\System.Web.Razor.xml
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.xml
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.Deployment.xml
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.Razor.xml
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\bin\System.Web.Helpers.xml
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\bin\System.Web.Mvc.xml
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.csprojResolveAssemblyReference.cache
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.dll
+c:\users\victor\documents\visual studio 2013\Projects\CaelumEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.pdb
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\bin\CaelumEstoque.dll.config
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\bin\CaelumEstoque.dll
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\bin\CaelumEstoque.pdb
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\bin\EntityFramework.dll
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\bin\EntityFramework.SqlServer.dll
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\bin\System.Web.Helpers.dll
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\bin\System.Web.Mvc.dll
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\bin\System.Web.Razor.dll
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.dll
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.Razor.dll
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\bin\EntityFramework.xml
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\bin\EntityFramework.SqlServer.xml
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\bin\System.Web.Razor.xml
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.xml
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.Razor.xml
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\bin\System.Web.Helpers.xml
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\bin\System.Web.Mvc.xml
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.csprojResolveAssemblyReference.cache
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.dll
+C:\Users\Victor\Desktop\CaelumEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.pdb
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\bin\CaelumEstoque.dll.config
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\bin\CaelumEstoque.dll
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\bin\CaelumEstoque.pdb
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\bin\EntityFramework.dll
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\bin\EntityFramework.SqlServer.dll
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\bin\System.Web.Helpers.dll
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\bin\System.Web.Mvc.dll
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\bin\System.Web.Razor.dll
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.Deployment.dll
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.dll
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.Razor.dll
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\bin\EntityFramework.xml
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\bin\EntityFramework.SqlServer.xml
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\bin\System.Web.Razor.xml
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.xml
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.Deployment.xml
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.Razor.xml
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\bin\System.Web.Helpers.xml
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\bin\System.Web.Mvc.xml
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.csprojResolveAssemblyReference.cache
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.dll
+F:\Alura\Trilha C# e .NET para Web\CaelumEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.pdb
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\bin\CaelumEstoque.dll.config
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\bin\CaelumEstoque.dll
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\bin\CaelumEstoque.pdb
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\bin\EntityFramework.dll
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\bin\EntityFramework.SqlServer.dll
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\bin\System.Web.Helpers.dll
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\bin\System.Web.Razor.dll
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.Deployment.dll
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.dll
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.Razor.dll
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\bin\EntityFramework.xml
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\bin\EntityFramework.SqlServer.xml
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\bin\System.Web.Razor.xml
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.xml
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.Deployment.xml
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\bin\System.Web.Webpages.Razor.xml
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\bin\System.Web.Helpers.xml
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.csprojResolveAssemblyReference.cache
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.dll
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.pdb
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\bin\Microsoft.Web.Infrastructure.dll
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\bin\System.Web.Mvc.dll
+F:\Alura\Trilha C# e .NET para Web\ASP.NET MVC\CaelumEstoque\CaelumEstoque\bin\System.Web.Mvc.xml
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\bin\CaelumEstoque.dll.config
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\bin\CaelumEstoque.dll
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\bin\CaelumEstoque.pdb
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\bin\EntityFramework.dll
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\bin\EntityFramework.SqlServer.dll
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\bin\System.Web.Helpers.dll
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\bin\System.Web.Mvc.dll
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\bin\System.Web.Razor.dll
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\bin\System.Web.WebPages.dll
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\bin\EntityFramework.xml
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\bin\EntityFramework.SqlServer.xml
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\bin\System.Web.Helpers.xml
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\bin\System.Web.Mvc.xml
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\bin\System.Web.Razor.xml
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\bin\System.Web.WebPages.xml
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.csprojResolveAssemblyReference.cache
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.dll
+C:\Users\Gabriel\Caelum\Cursos Alura\ASP Net\CaelumEstoque\CaelumEstoque\obj\Debug\CaelumEstoque.pdb
